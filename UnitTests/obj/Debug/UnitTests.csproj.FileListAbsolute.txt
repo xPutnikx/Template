@@ -1,0 +1,7 @@
+c:\users\putnik\documents\visual studio 11\Projects\TemplateTask\UnitTests\bin\Debug\UnitTests.dll
+c:\users\putnik\documents\visual studio 11\Projects\TemplateTask\UnitTests\bin\Debug\UnitTests.pdb
+c:\users\putnik\documents\visual studio 11\Projects\TemplateTask\UnitTests\bin\Debug\TemplateTask.exe
+c:\users\putnik\documents\visual studio 11\Projects\TemplateTask\UnitTests\bin\Debug\TemplateTask.pdb
+c:\users\putnik\documents\visual studio 11\Projects\TemplateTask\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+c:\users\putnik\documents\visual studio 11\Projects\TemplateTask\UnitTests\obj\Debug\UnitTests.dll
+c:\users\putnik\documents\visual studio 11\Projects\TemplateTask\UnitTests\obj\Debug\UnitTests.pdb

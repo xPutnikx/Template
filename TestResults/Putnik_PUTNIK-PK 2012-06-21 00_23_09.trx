@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f1e2cbfd-8fdf-4da8-9775-e59cfc879712" name="Putnik@PUTNIK-PK 2012-06-21 00:23:09" runUser="Putnik-Pk\Putnik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="22fcd1b1-de5e-47bf-9496-00c7fd2f38f4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Putnik_PUTNIK-PK 2012-06-21 00_23_09">
+      <DeploymentItem filename="c:\users\putnik\documents\visual studio 11\Projects\TemplateTask\TemplateTask\bin\Debug\TemplateTask.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-21T00:23:09.8030000+03:00" queuing="2012-06-21T00:23:13.1736000+03:00" start="2012-06-21T00:23:13.3346000+03:00" finish="2012-06-21T00:23:58.6650000+03:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="3" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="2" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PUTNIK-PK" outcome="Warning" timestamp="2012-06-21T00:23:09.9220000+03:00">
+        <Text>Deployment is currently disabled. The deployment item 'TemplateTask.exe' on test 'TestProject.ProgramTest.ProgramConstructorTest' was not deployed.</Text>
+      </RunInfo>
+      <RunInfo computerName="PUTNIK-PK" outcome="Error" timestamp="2012-06-21T00:23:58.6180000+03:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ProgramConstructorTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\testproject\bin\debug\testproject.dll" id="fe8e1ed9-031a-cb7f-9647-c12561366105">
+      <DeploymentItems>
+        <DeploymentItem filename="TemplateTask.exe" />
+      </DeploymentItems>
+      <Execution id="38407a80-54bc-4975-b350-3e2f5d7a912f" />
+      <TestMethod codeBase="c:/users/putnik/documents/visual studio 11/Projects/TemplateTask/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.ProgramTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProgramConstructorTest" />
+    </UnitTest>
+    <UnitTest name="MainTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\testproject\bin\debug\testproject.dll" id="b4e05061-4fe6-a875-dbeb-a3814a9e10d5">
+      <DeploymentItems>
+        <DeploymentItem filename="TemplateTask.exe" />
+      </DeploymentItems>
+      <Execution id="40a5c7eb-b99b-4885-a1d4-97d8a744875e" />
+      <TestMethod codeBase="c:/users/putnik/documents/visual studio 11/Projects/TemplateTask/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.ProgramTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainTest" />
+    </UnitTest>
+    <UnitTest name="RenderTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\testproject\bin\debug\testproject.dll" id="c617a7a2-94ff-3af8-09c1-2cb4b30c8330">
+      <DeploymentItems>
+        <DeploymentItem filename="TemplateTask.exe" />
+      </DeploymentItems>
+      <Execution id="eaf180a8-9daa-42ca-86db-be7b1ded5c6c" />
+      <TestMethod codeBase="c:/users/putnik/documents/visual studio 11/Projects/TemplateTask/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.ProgramTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RenderTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b4e05061-4fe6-a875-dbeb-a3814a9e10d5" executionId="40a5c7eb-b99b-4885-a1d4-97d8a744875e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c617a7a2-94ff-3af8-09c1-2cb4b30c8330" executionId="eaf180a8-9daa-42ca-86db-be7b1ded5c6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe8e1ed9-031a-cb7f-9647-c12561366105" executionId="38407a80-54bc-4975-b350-3e2f5d7a912f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="40a5c7eb-b99b-4885-a1d4-97d8a744875e" testId="b4e05061-4fe6-a875-dbeb-a3814a9e10d5" testName="MainTest" computerName="PUTNIK-PK" duration="00:00:45.2404000" startTime="2012-06-21T00:23:13.4236000+03:00" endTime="2012-06-21T00:23:58.6640000+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40a5c7eb-b99b-4885-a1d4-97d8a744875e">
+    </UnitTestResult>
+    <UnitTestResult executionId="eaf180a8-9daa-42ca-86db-be7b1ded5c6c" testId="c617a7a2-94ff-3af8-09c1-2cb4b30c8330" testName="RenderTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eaf180a8-9daa-42ca-86db-be7b1ded5c6c">
+    </UnitTestResult>
+    <UnitTestResult executionId="38407a80-54bc-4975-b350-3e2f5d7a912f" testId="fe8e1ed9-031a-cb7f-9647-c12561366105" testName="ProgramConstructorTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38407a80-54bc-4975-b350-3e2f5d7a912f">
+    </UnitTestResult>
+  </Results>
+</TestRun>
