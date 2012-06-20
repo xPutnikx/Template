@@ -86,5 +86,17 @@ namespace UnitTests
             Program_Accessor.Main(args);
             Assert.Inconclusive("A method that does not return a value cannot be verified.");
         }
+
+        /// <summary>
+        ///A test for Render
+        ///</summary>
+        [TestMethod()]
+        [DeploymentItem("TemplateTask.exe")]
+        public void RenderTest()
+        {
+            Program_Accessor target = new Program_Accessor(); // TODO: Initialize to an appropriate value
+            target.Render();
+            Assert.Inconclusive("A method that does not return a value cannot be verified.");
+        }
     }
 }
