@@ -8,5 +8,6 @@ namespace TemplateTask
 {
     interface ITemplate
     {
+        void Render(StringBuilder output);
     }
 }

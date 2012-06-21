@@ -6,12 +6,27 @@ using System.Threading.Tasks;
 
 namespace TemplateTask
 {
-    class Program
+    class DummyTemplate : ITemplate
     {
-        static void Main(string[] args)
+        DummyTemplate(string s)
         {
+            string patternCycle=@"<%(\s*)for(\s*)\((\s*)int\si(\s*)=(\s*)\d(\s*);(\s*)i(\s*)<(\s*)\d(\s*);(\s*)i\++(\s*)\)(\s*){%>";
+            string patternStar=@"%>(\s*)(\w|\W)(\s*)<%";
+            string patternFigureBrace=@"<%\}%>";
+            char brace='"';
+            string patternOutputWriteWithCycle=@"<%(\s*)for(\s*)\((\s*)int\si(\s*)=(\s*)\d(\s*);(\s*)i(\s*)<(\s*)\d(\s*);(\s*)i\++(\s*)\)(\s*){(\s*)output.Write\("+brace+@"(\s*)(\w+|\W+)\"+brace+@"\)(\s*);(\s*)}%>";
+            string patternOutputWrite=@"<%(\s*)output.Write\(\"+brace+@"(\s*)(\w+|\W+);(\s*)%>";
+            string patternMathOperation=@"<%(\s*)output.Write\((\s*)(\d|\S|(\s*))+(\s*)\)(\s*);(\s*)}%>";
+            string patternSimpleMath=@"<%(\s*)(\d|\S|(\s*))+(\s*)%>";
+            string patternOpenCode=@"<%";
+            string patternCloseCode=@"%>";
         }
-        private void Render()
+
+        public void Render(StringBuilder output)
+        {
+            // do nothing.
+        }
+        static void Main(string[] args)
         {
         }
     }
