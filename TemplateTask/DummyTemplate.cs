@@ -2,32 +2,38 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace TemplateTask
 {
     class DummyTemplate : ITemplate
     {
-        DummyTemplate(string s)
+        private static List<Match> operationList = new List<Match>();
+        StringBuilder output = new StringBuilder();
+        public DummyTemplate(string s)
         {
-            string patternCycle=@"<%(\s*)for(\s*)\((\s*)int\si(\s*)=(\s*)\d(\s*);(\s*)i(\s*)<(\s*)\d(\s*);(\s*)i\++(\s*)\)(\s*){%>";
-            string patternStar=@"%>(\s*)(\w|\W)(\s*)<%";
-            string patternFigureBrace=@"<%\}%>";
-            char brace='"';
-            string patternOutputWriteWithCycle=@"<%(\s*)for(\s*)\((\s*)int\si(\s*)=(\s*)\d(\s*);(\s*)i(\s*)<(\s*)\d(\s*);(\s*)i\++(\s*)\)(\s*){(\s*)output.Write\("+brace+@"(\s*)(\w+|\W+)\"+brace+@"\)(\s*);(\s*)}%>";
-            string patternOutputWrite=@"<%(\s*)output.Write\(\"+brace+@"(\s*)(\w+|\W+);(\s*)%>";
-            string patternMathOperation=@"<%(\s*)output.Write\((\s*)(\d|\S|(\s*))+(\s*)\)(\s*);(\s*)}%>";
-            string patternSimpleMath=@"<%(\s*)(\d|\S|(\s*))+(\s*)%>";
-            string patternOpenCode=@"<%";
-            string patternCloseCode=@"%>";
+            var processRequest = new ProcessRequest();
+            processRequest.request(s);
+            operationList=processRequest.response();
+            Render(output);
         }
 
+        public DummyTemplate()
+        {
+            // TODO: Complete member initialization
+        }
         public void Render(StringBuilder output)
         {
-            // do nothing.
+            for (int i = 0; i < operationList.Count; i++)
+            {
+                output.Append(operationList[i]);
+                Console.WriteLine(output);
+            }
         }
         static void Main(string[] args)
         {
+            var template = new DummyTemplate(@"<%for(int i=0; i < 5; i++){%>*<%}%>");
         }
     }
     

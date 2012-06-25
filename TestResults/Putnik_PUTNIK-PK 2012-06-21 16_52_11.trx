@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e50fc409-5140-4768-bc15-c7c9b5cb8008" name="Putnik@PUTNIK-PK 2012-06-21 16:52:11" runUser="Putnik-Pk\Putnik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="22fcd1b1-de5e-47bf-9496-00c7fd2f38f4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Putnik_PUTNIK-PK 2012-06-21 16_52_11">
+      <DeploymentItem filename="C:\Users\Putnik\Documents\Visual Studio 11\Projects\TemplateTask\TemplateTask\bin\Debug\TemplateTask.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-21T16:52:11.5386000+03:00" queuing="2012-06-21T16:52:14.7196000+03:00" start="2012-06-21T16:52:14.9096000+03:00" finish="2012-06-21T16:53:02.9336000+03:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="22" executed="2" passed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="20" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PUTNIK-PK" outcome="Error" timestamp="2012-06-21T16:53:02.8736000+03:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="getPatternOutputWriteTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="b8ce1d27-4f83-278b-654f-89352406b419">
+      <Execution id="fb966b5a-153d-4286-94cc-524005b27067" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.RegularDBTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPatternOutputWriteTest" />
+    </UnitTest>
+    <UnitTest name="RegularDBConstructorTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="aec6f2d1-ef0c-6eb0-65c5-0262afb7c0c0">
+      <Execution id="2d9731ac-1a68-4ee7-a5c8-eed3faa7dcb3" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.RegularDBTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegularDBConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ProcessRequestConstructorTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="37b901ef-bd7b-8f4f-7a15-da4cc54a679c">
+      <Execution id="8161e31f-fdc0-4816-9a0d-2901c8074d48" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.ProcessRequestTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProcessRequestConstructorTest" />
+    </UnitTest>
+    <UnitTest name="getPatternFigureBraceTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="909994ad-1ab7-1b87-3756-8871ca52b0f8">
+      <Execution id="f109e6b3-7e20-4313-8fe6-d8e01aa79f44" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.RegularDBTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPatternFigureBraceTest" />
+    </UnitTest>
+    <UnitTest name="equalsPatternStarTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="7f9f0f70-cec9-8f72-2ad4-d53f222a6b0a">
+      <DeploymentItems>
+        <DeploymentItem filename="TemplateTask.exe" />
+      </DeploymentItems>
+      <Execution id="fce9cd28-6446-48bf-a296-43aaa78ff80e" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.ProcessRequestTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="equalsPatternStarTest" />
+    </UnitTest>
+    <UnitTest name="getPatternMathOperationTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="f80fdde7-f9be-ec90-6556-ca532a9e61bf">
+      <Execution id="51421b9a-632b-4d0a-9268-b339ddb7deb6" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.RegularDBTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPatternMathOperationTest" />
+    </UnitTest>
+    <UnitTest name="RenderTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="de5e49c9-d933-eee1-b100-a91d228d8249">
+      <Execution id="5cc7ef76-99bd-49ce-909a-7937715c4365" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.ITemplateTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RenderTest" />
+    </UnitTest>
+    <UnitTest name="equalsOutputWriteTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="e5f4cab8-c6ab-8b37-a0aa-864f3075bae6">
+      <DeploymentItems>
+        <DeploymentItem filename="TemplateTask.exe" />
+      </DeploymentItems>
+      <Execution id="62605280-6ca6-426d-a1f3-e8100ba5d816" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.ProcessRequestTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="equalsOutputWriteTest" />
+    </UnitTest>
+    <UnitTest name="equalsCycleTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="2cafb713-23e9-872e-bb7e-45cb20cd18f1">
+      <DeploymentItems>
+        <DeploymentItem filename="TemplateTask.exe" />
+      </DeploymentItems>
+      <Execution id="60df1f5a-c7cc-47ba-8a44-cdf765c51e38" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.ProcessRequestTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="equalsCycleTest" />
+    </UnitTest>
+    <UnitTest name="equalsOutputWriteWithCycleTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="a6bab426-e186-c436-c019-6730cc8e2eff">
+      <DeploymentItems>
+        <DeploymentItem filename="TemplateTask.exe" />
+      </DeploymentItems>
+      <Execution id="f26f66be-201c-4beb-aeb5-1f170b081c6e" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.ProcessRequestTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="equalsOutputWriteWithCycleTest" />
+    </UnitTest>
+    <UnitTest name="requestTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="edafcc0d-869b-55d0-47c4-aa60721b8d00">
+      <Execution id="3e12e1b0-5c67-4532-a799-5df23a2dc564" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.ProcessRequestTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="requestTest" />
+    </UnitTest>
+    <UnitTest name="ProgramConstructorTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="080e9ac2-cdb6-aa21-3bd5-0b70615a2fd8">
+      <DeploymentItems>
+        <DeploymentItem filename="TemplateTask.exe" />
+      </DeploymentItems>
+      <Execution id="d9b17bba-f3c6-4d10-93fa-d4b8559d3962" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.ProgramTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProgramConstructorTest" />
+    </UnitTest>
+    <UnitTest name="getPatternCycleTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="30dd06d3-ba24-3317-d50d-f5d56d32161f">
+      <Execution id="c425a86b-7c38-427d-aeeb-c992522b560d" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.RegularDBTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPatternCycleTest" />
+    </UnitTest>
+    <UnitTest name="responseTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="8978fac2-213a-9f7e-7407-e3778a2e42ef">
+      <Execution id="e01cfdf8-f5b9-473f-ad96-1f0e4143cdb5" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.ProcessRequestTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="responseTest" />
+    </UnitTest>
+    <UnitTest name="getPatternSimpleMathTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="cf1d6864-397e-39ce-0c0d-2af6b4ea422f">
+      <Execution id="2356a4c7-e665-41ca-9667-be2ffbd52a1c" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.RegularDBTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPatternSimpleMathTest" />
+    </UnitTest>
+    <UnitTest name="getPatternStarTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="d8802f54-8e90-9ef9-a394-78b99f626283">
+      <Execution id="125f715a-8587-4574-bd77-c8331c113a79" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.RegularDBTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPatternStarTest" />
+    </UnitTest>
+    <UnitTest name="getPatternOutputWriteWithCycleTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="09c01f44-6df8-d1e3-3098-58e6a7c38547">
+      <Execution id="ac45040c-5971-4973-8e8a-c0b2c68c0959" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.RegularDBTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getPatternOutputWriteWithCycleTest" />
+    </UnitTest>
+    <UnitTest name="equalsSimpleMathTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="efd2ad5a-e411-3218-7f08-2d750a1b064f">
+      <DeploymentItems>
+        <DeploymentItem filename="TemplateTask.exe" />
+      </DeploymentItems>
+      <Execution id="243af1a5-67b7-4b6f-8e81-f6842b4ac7ce" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.ProcessRequestTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="equalsSimpleMathTest" />
+    </UnitTest>
+    <UnitTest name="MainTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="e8d83070-036a-7184-ddfe-8143672ffaaf">
+      <DeploymentItems>
+        <DeploymentItem filename="TemplateTask.exe" />
+      </DeploymentItems>
+      <Execution id="61bd0def-2aea-4dfc-9057-57cc31c576d7" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.ProgramTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainTest" />
+    </UnitTest>
+    <UnitTest name="equalsFigureBraceTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="2cde5847-9c43-5ecb-a41a-a9562f60ea20">
+      <DeploymentItems>
+        <DeploymentItem filename="TemplateTask.exe" />
+      </DeploymentItems>
+      <Execution id="63653a4a-ac33-451c-84d5-0e200922aee4" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.ProcessRequestTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="equalsFigureBraceTest" />
+    </UnitTest>
+    <UnitTest name="RenderTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="5cd59b92-49fd-f038-770c-c02c8fb34bb7">
+      <DeploymentItems>
+        <DeploymentItem filename="TemplateTask.exe" />
+      </DeploymentItems>
+      <Execution id="b8b014fb-890f-4909-81c4-cd81f6bc046b" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.ProgramTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RenderTest" />
+    </UnitTest>
+    <UnitTest name="equalsMathOperationTest" storage="c:\users\putnik\documents\visual studio 11\projects\templatetask\unittests\bin\debug\unittests.dll" id="64d8c3cd-cff4-baf2-e0e8-dc40b323be76">
+      <DeploymentItems>
+        <DeploymentItem filename="TemplateTask.exe" />
+      </DeploymentItems>
+      <Execution id="43337372-eeec-4d0c-92da-744cd0ee9b63" />
+      <TestMethod codeBase="C:/Users/Putnik/Documents/Visual Studio 11/Projects/TemplateTask/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.ProcessRequestTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="equalsMathOperationTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="080e9ac2-cdb6-aa21-3bd5-0b70615a2fd8" executionId="d9b17bba-f3c6-4d10-93fa-d4b8559d3962" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09c01f44-6df8-d1e3-3098-58e6a7c38547" executionId="ac45040c-5971-4973-8e8a-c0b2c68c0959" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cafb713-23e9-872e-bb7e-45cb20cd18f1" executionId="60df1f5a-c7cc-47ba-8a44-cdf765c51e38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cde5847-9c43-5ecb-a41a-a9562f60ea20" executionId="63653a4a-ac33-451c-84d5-0e200922aee4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30dd06d3-ba24-3317-d50d-f5d56d32161f" executionId="c425a86b-7c38-427d-aeeb-c992522b560d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37b901ef-bd7b-8f4f-7a15-da4cc54a679c" executionId="8161e31f-fdc0-4816-9a0d-2901c8074d48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5cd59b92-49fd-f038-770c-c02c8fb34bb7" executionId="b8b014fb-890f-4909-81c4-cd81f6bc046b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64d8c3cd-cff4-baf2-e0e8-dc40b323be76" executionId="43337372-eeec-4d0c-92da-744cd0ee9b63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f9f0f70-cec9-8f72-2ad4-d53f222a6b0a" executionId="fce9cd28-6446-48bf-a296-43aaa78ff80e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8978fac2-213a-9f7e-7407-e3778a2e42ef" executionId="e01cfdf8-f5b9-473f-ad96-1f0e4143cdb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="909994ad-1ab7-1b87-3756-8871ca52b0f8" executionId="f109e6b3-7e20-4313-8fe6-d8e01aa79f44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6bab426-e186-c436-c019-6730cc8e2eff" executionId="f26f66be-201c-4beb-aeb5-1f170b081c6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aec6f2d1-ef0c-6eb0-65c5-0262afb7c0c0" executionId="2d9731ac-1a68-4ee7-a5c8-eed3faa7dcb3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8ce1d27-4f83-278b-654f-89352406b419" executionId="fb966b5a-153d-4286-94cc-524005b27067" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf1d6864-397e-39ce-0c0d-2af6b4ea422f" executionId="2356a4c7-e665-41ca-9667-be2ffbd52a1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8802f54-8e90-9ef9-a394-78b99f626283" executionId="125f715a-8587-4574-bd77-c8331c113a79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de5e49c9-d933-eee1-b100-a91d228d8249" executionId="5cc7ef76-99bd-49ce-909a-7937715c4365" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5f4cab8-c6ab-8b37-a0aa-864f3075bae6" executionId="62605280-6ca6-426d-a1f3-e8100ba5d816" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8d83070-036a-7184-ddfe-8143672ffaaf" executionId="61bd0def-2aea-4dfc-9057-57cc31c576d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edafcc0d-869b-55d0-47c4-aa60721b8d00" executionId="3e12e1b0-5c67-4532-a799-5df23a2dc564" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efd2ad5a-e411-3218-7f08-2d750a1b064f" executionId="243af1a5-67b7-4b6f-8e81-f6842b4ac7ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f80fdde7-f9be-ec90-6556-ca532a9e61bf" executionId="51421b9a-632b-4d0a-9268-b339ddb7deb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d9b17bba-f3c6-4d10-93fa-d4b8559d3962" testId="080e9ac2-cdb6-aa21-3bd5-0b70615a2fd8" testName="ProgramConstructorTest" computerName="PUTNIK-PK" duration="00:00:00.0166070" startTime="2012-06-21T16:52:15.0196000+03:00" endTime="2012-06-21T16:52:16.1796000+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9b17bba-f3c6-4d10-93fa-d4b8559d3962">
+    </UnitTestResult>
+    <UnitTestResult executionId="ac45040c-5971-4973-8e8a-c0b2c68c0959" testId="09c01f44-6df8-d1e3-3098-58e6a7c38547" testName="getPatternOutputWriteWithCycleTest" computerName="PUTNIK-PK" duration="00:00:46.7240000" startTime="2012-06-21T16:52:16.2096000+03:00" endTime="2012-06-21T16:53:02.9336000+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac45040c-5971-4973-8e8a-c0b2c68c0959">
+    </UnitTestResult>
+    <UnitTestResult executionId="60df1f5a-c7cc-47ba-8a44-cdf765c51e38" testId="2cafb713-23e9-872e-bb7e-45cb20cd18f1" testName="equalsCycleTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60df1f5a-c7cc-47ba-8a44-cdf765c51e38">
+    </UnitTestResult>
+    <UnitTestResult executionId="63653a4a-ac33-451c-84d5-0e200922aee4" testId="2cde5847-9c43-5ecb-a41a-a9562f60ea20" testName="equalsFigureBraceTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63653a4a-ac33-451c-84d5-0e200922aee4">
+    </UnitTestResult>
+    <UnitTestResult executionId="c425a86b-7c38-427d-aeeb-c992522b560d" testId="30dd06d3-ba24-3317-d50d-f5d56d32161f" testName="getPatternCycleTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c425a86b-7c38-427d-aeeb-c992522b560d">
+    </UnitTestResult>
+    <UnitTestResult executionId="8161e31f-fdc0-4816-9a0d-2901c8074d48" testId="37b901ef-bd7b-8f4f-7a15-da4cc54a679c" testName="ProcessRequestConstructorTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8161e31f-fdc0-4816-9a0d-2901c8074d48">
+    </UnitTestResult>
+    <UnitTestResult executionId="b8b014fb-890f-4909-81c4-cd81f6bc046b" testId="5cd59b92-49fd-f038-770c-c02c8fb34bb7" testName="RenderTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8b014fb-890f-4909-81c4-cd81f6bc046b">
+    </UnitTestResult>
+    <UnitTestResult executionId="43337372-eeec-4d0c-92da-744cd0ee9b63" testId="64d8c3cd-cff4-baf2-e0e8-dc40b323be76" testName="equalsMathOperationTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43337372-eeec-4d0c-92da-744cd0ee9b63">
+    </UnitTestResult>
+    <UnitTestResult executionId="fce9cd28-6446-48bf-a296-43aaa78ff80e" testId="7f9f0f70-cec9-8f72-2ad4-d53f222a6b0a" testName="equalsPatternStarTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fce9cd28-6446-48bf-a296-43aaa78ff80e">
+    </UnitTestResult>
+    <UnitTestResult executionId="e01cfdf8-f5b9-473f-ad96-1f0e4143cdb5" testId="8978fac2-213a-9f7e-7407-e3778a2e42ef" testName="responseTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e01cfdf8-f5b9-473f-ad96-1f0e4143cdb5">
+    </UnitTestResult>
+    <UnitTestResult executionId="f109e6b3-7e20-4313-8fe6-d8e01aa79f44" testId="909994ad-1ab7-1b87-3756-8871ca52b0f8" testName="getPatternFigureBraceTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f109e6b3-7e20-4313-8fe6-d8e01aa79f44">
+    </UnitTestResult>
+    <UnitTestResult executionId="f26f66be-201c-4beb-aeb5-1f170b081c6e" testId="a6bab426-e186-c436-c019-6730cc8e2eff" testName="equalsOutputWriteWithCycleTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f26f66be-201c-4beb-aeb5-1f170b081c6e">
+    </UnitTestResult>
+    <UnitTestResult executionId="2d9731ac-1a68-4ee7-a5c8-eed3faa7dcb3" testId="aec6f2d1-ef0c-6eb0-65c5-0262afb7c0c0" testName="RegularDBConstructorTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d9731ac-1a68-4ee7-a5c8-eed3faa7dcb3">
+    </UnitTestResult>
+    <UnitTestResult executionId="fb966b5a-153d-4286-94cc-524005b27067" testId="b8ce1d27-4f83-278b-654f-89352406b419" testName="getPatternOutputWriteTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb966b5a-153d-4286-94cc-524005b27067">
+    </UnitTestResult>
+    <UnitTestResult executionId="2356a4c7-e665-41ca-9667-be2ffbd52a1c" testId="cf1d6864-397e-39ce-0c0d-2af6b4ea422f" testName="getPatternSimpleMathTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2356a4c7-e665-41ca-9667-be2ffbd52a1c">
+    </UnitTestResult>
+    <UnitTestResult executionId="125f715a-8587-4574-bd77-c8331c113a79" testId="d8802f54-8e90-9ef9-a394-78b99f626283" testName="getPatternStarTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="125f715a-8587-4574-bd77-c8331c113a79">
+    </UnitTestResult>
+    <UnitTestResult executionId="5cc7ef76-99bd-49ce-909a-7937715c4365" testId="de5e49c9-d933-eee1-b100-a91d228d8249" testName="RenderTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5cc7ef76-99bd-49ce-909a-7937715c4365">
+    </UnitTestResult>
+    <UnitTestResult executionId="62605280-6ca6-426d-a1f3-e8100ba5d816" testId="e5f4cab8-c6ab-8b37-a0aa-864f3075bae6" testName="equalsOutputWriteTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62605280-6ca6-426d-a1f3-e8100ba5d816">
+    </UnitTestResult>
+    <UnitTestResult executionId="61bd0def-2aea-4dfc-9057-57cc31c576d7" testId="e8d83070-036a-7184-ddfe-8143672ffaaf" testName="MainTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61bd0def-2aea-4dfc-9057-57cc31c576d7">
+    </UnitTestResult>
+    <UnitTestResult executionId="3e12e1b0-5c67-4532-a799-5df23a2dc564" testId="edafcc0d-869b-55d0-47c4-aa60721b8d00" testName="requestTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e12e1b0-5c67-4532-a799-5df23a2dc564">
+    </UnitTestResult>
+    <UnitTestResult executionId="243af1a5-67b7-4b6f-8e81-f6842b4ac7ce" testId="efd2ad5a-e411-3218-7f08-2d750a1b064f" testName="equalsSimpleMathTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="243af1a5-67b7-4b6f-8e81-f6842b4ac7ce">
+    </UnitTestResult>
+    <UnitTestResult executionId="51421b9a-632b-4d0a-9268-b339ddb7deb6" testId="f80fdde7-f9be-ec90-6556-ca532a9e61bf" testName="getPatternMathOperationTest" computerName="PUTNIK-PK" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51421b9a-632b-4d0a-9268-b339ddb7deb6">
+    </UnitTestResult>
+  </Results>
+</TestRun>
